@@ -28,6 +28,12 @@ display: inline;
 height: 16px;
 width: 16px;
 }
+img.remove:hover{
+display: inline;
+height: 20px;
+width: 20px;
+cursor: pointer;
+}
 
 ul {
   list-style: none
