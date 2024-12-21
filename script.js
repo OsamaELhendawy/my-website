@@ -1,4 +1,6 @@
-document.querySelector('#discount-bar .remove').addEventListener('click', function () {
-    const discountBar = document.getElementById('discount-bar');
-    discountBar.parentNode.removeChild(discountBar);
-});
+
+
+// Select the button with the "remove" class inside the "discount-bar" div
+document.querySelector('#discount-bar .remove').onclick = function () {
+    document.getElementById('discount-bar').remove();
+};
