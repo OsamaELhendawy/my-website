@@ -8,17 +8,32 @@
 
 
 #discount-bar {
-  background-color: #ffcc00;
-  color: #333;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  background-color: rgb(236, 188, 155);
+  color: rgba(88, 69, 55, 0.921);
   font-size: 16px;
   text-align: center;
   padding: 10px 50px;
 }
 
-#discount-bar .remove {
-  margin-left: 90%;
+#discount-bar p{
+  margin-left: 40%;
 }
 
+
+img.remove{
+display: inline;
+height: 16px;
+width: 16px;
+}
+img.remove:hover{
+display: inline;
+height: 20px;
+width: 20px;
+cursor: pointer;
+}
 
 ul {
   list-style: none
@@ -39,13 +54,12 @@ html {
   margin: 0 auto
 }
 
-img {
-  width: 100%
-}
 
 .padtopbot {
   padding: 3rem 0;
 }
+
+
 
 
 
