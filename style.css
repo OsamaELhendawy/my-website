@@ -411,6 +411,50 @@ section.images .child .five {
   background-image: url(./img/images/b10.jpg);
 }
 
+
+
+/* Start Stats */
+
+
+.stats {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+.stats h2 {
+  font-weight: bold;
+  font-size: 40px;
+  width: fit-content;
+  margin: auto;
+}
+
+
+.stats .box {
+  padding: 30px 15px;
+  text-align: center;
+}
+
+
+.stats .box .number {
+  display: block;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.stats .box .text {
+  color: black;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+/* End Stats */
+
+
 /* ============= sign up =============== */
 
 section.signup {
