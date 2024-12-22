@@ -5,7 +5,7 @@
   transition: 0.2s
 }
 
-
+/* Start Discount bar */
 
 #discount-bar {
   display: flex;
@@ -23,6 +23,7 @@
 }
 
 
+
 img.remove {
   display: inline;
   height: 16px;
@@ -35,6 +36,9 @@ img.remove:hover {
   width: 20px;
   cursor: pointer;
 }
+
+/* end Discount bar */
+
 
 ul {
   list-style: none
@@ -110,7 +114,7 @@ nav ul li .cart-box {
   position: absolute;
   top: 100%;
   left: 50%;
-  transform: translateX(-30%);
+  transform: translateX(80%);
   width: 200px;
   background-color: rgb(86, 71, 54);
   color: rgb(236, 228, 214);
