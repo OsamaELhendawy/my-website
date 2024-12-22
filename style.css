@@ -5,39 +5,6 @@
   transition: 0.2s
 }
 
-/* Start Discount bar */
-
-#discount-bar {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  background-color: rgb(236, 188, 155);
-  color: rgba(88, 69, 55, 0.921);
-  font-size: 16px;
-  text-align: center;
-  padding: 10px 50px;
-}
-
-#discount-bar p {
-  margin-left: 40%;
-}
-
-
-
-img.remove {
-  display: inline;
-  height: 16px;
-  width: 16px;
-}
-
-img.remove:hover {
-  display: inline;
-  height: 20px;
-  width: 20px;
-  cursor: pointer;
-}
-
-/* end Discount bar */
 
 
 ul {
@@ -65,7 +32,38 @@ html {
 }
 
 
+/* Start Discount bar */
 
+#discount-bar {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  background-color: #ecbc9b;
+  color: #584537;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 50px;
+}
+
+#discount-bar p {
+  margin-left: 40%;
+}
+
+
+
+img.remove {
+  display: inline;
+  height: 16px;
+  width: 16px;
+}
+
+img.remove:hover {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+/* end Discount bar */
 
 
 /* ============== nav =============*/
@@ -105,25 +103,22 @@ nav ul li a#cart {
 }
 
 nav ul li a:hover {
-  color: rgb(236, 228, 214);
-  background-color: rgb(86, 71, 54);
+  color: #ece4d6;
+  background-color: #564736;
 }
 
 
 nav ul li .cart-box {
   position: absolute;
   top: 100%;
-  left: 50%;
-  transform: translateX(80%);
   width: 200px;
-  background-color: rgb(86, 71, 54);
-  color: rgb(236, 228, 214);
+  background-color: #564736;
+  color: #ece4d6;
   padding: 1rem;
   border-radius: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px #0000001a;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
   z-index: 10000000;
 }
 
@@ -135,7 +130,7 @@ nav ul li:hover .cart-box {
 nav ul li .cart-box h4 {
   margin: 0 0 0.5rem 0;
   font-size: 1rem;
-  border-bottom: 1px solid rgb(236, 228, 214);
+  border-bottom: 1px solid #ece4d6;
   padding-bottom: 0.5rem;
 }
 
@@ -599,7 +594,6 @@ footer .container .follow h2 {
   font-weight: bold;
   font-size: 1.2rem;
   padding-bottom: 0.7rem;
-  position: relative;
   margin-bottom: 0.7rem;
 }
 
