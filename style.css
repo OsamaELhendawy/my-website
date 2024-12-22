@@ -569,10 +569,6 @@ section.signup .container div p span {
 
 /* ================== footer ================== */
 
-footer {
-  color: rgb(0, 0, 0);
-}
-
 footer .container {
   display: flex;
   align-items: center;
@@ -582,7 +578,7 @@ footer .container {
 
 footer .container ul,
 footer .container .follow {
-  width: calc(95% / 4)
+  width: 25%;
 }
 
 footer .container img {
@@ -594,7 +590,6 @@ footer .container .follow h2 {
   font-weight: bold;
   font-size: 1.2rem;
   padding-bottom: 0.7rem;
-  margin-bottom: 0.7rem;
 }
 
 footer .container ul li:first-child::after,
@@ -605,28 +600,15 @@ footer .container .follow h2::after {
   background-color: white;
   position: absolute;
   bottom: 0;
-  left: 0;
-
-}
-
-footer .container .follow a {
-  display: inline;
 }
 
 footer .container .follow a img {
   width: 30px;
 }
 
-footer .container ul.payment li img {
-  border-radius: 10px;
-  border: 4px black;
-
-}
 
 .secoundFooter {
   text-align: center;
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
   padding: 1rem;
 }
 
