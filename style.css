@@ -18,21 +18,22 @@
   padding: 10px 50px;
 }
 
-#discount-bar p{
+#discount-bar p {
   margin-left: 40%;
 }
 
 
-img.remove{
-display: inline;
-height: 16px;
-width: 16px;
+img.remove {
+  display: inline;
+  height: 16px;
+  width: 16px;
 }
-img.remove:hover{
-display: inline;
-height: 20px;
-width: 20px;
-cursor: pointer;
+
+img.remove:hover {
+  display: inline;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
 }
 
 ul {
