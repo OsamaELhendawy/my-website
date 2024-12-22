@@ -541,51 +541,6 @@ section.images .child .five {
 
 }
 
-/* .stats {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.box {
-  display: inline;
-}
-
-.box span {
- 
-padding: 0px 30px;
-} */
-
-/*
-.stats h2 {
-  font-weight: bold;
-  font-size: 40px;
-  width: fit-content;
-  margin: auto;
-}
-
-
-.stats .box {
-  padding: 30px 15px;
-  text-align: center;
-}
-
-
-.stats .box .number {
-  display: block;
-  font-size: 50px;
-  font-weight: bold;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.stats .box .text {
-  color: black;
-  font-style: italic;
-  font-size: 20px;
-  font-weight: bold;
-} */
-
-
 /* End Stats */
 
 
@@ -614,6 +569,8 @@ section.signup .container div {
 section.signup .container div p span {
   color: rgb(255, 212, 0);
 }
+
+/* End sign up */
 
 /* ================== footer ================== */
 
@@ -738,9 +695,6 @@ footer .container ul.payment li img {
   footer .container ul,
   footer .container .follow {
     width: 100%;
-    ;
-
-
   }
 }
 
