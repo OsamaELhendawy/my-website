@@ -110,7 +110,7 @@ nav ul li .cart-box {
   position: absolute;
   top: 100%;
   left: 50%;
-  transform: translateX(-80%);
+  transform: translateX(-30%);
   width: 200px;
   background-color: rgb(86, 71, 54);
   color: rgb(236, 228, 214);
